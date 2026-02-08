@@ -1,4 +1,4 @@
-import { scrapeBigMedia } from '@/lib/scrapers/big_media';
+import { scrapeAllSources } from '@/lib/scrapers/big_media';
 import { supabase } from '@/lib/supabase';
 import { NextResponse } from 'next/server';
 
@@ -7,7 +7,7 @@ export async function POST() {
         console.log('🚀 Direct scraper (no pipeline)...');
 
         // Step 1: Scrape
-        const articles = await scrapeBigMedia();
+        const articles = await scrapeAllSources();
         console.log(`✅ Scraped: ${articles.length} articles`);
 
         if (articles.length === 0) {

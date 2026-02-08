@@ -1,10 +1,10 @@
-import { scrapeBigMedia } from '@/lib/scrapers/big_media';
+import { scrapeAllSources } from '@/lib/scrapers/big_media';
 import { NextResponse } from 'next/server';
 
 export async function GET() {
     try {
-        console.log('📡 TEST: Calling scrapeBigMedia()...');
-        const articles = await scrapeBigMedia();
+        console.log('📡 TEST: Calling scrapeAllSources()...');
+        const articles = await scrapeAllSources();
         console.log(`📊 TEST: Got ${articles.length} articles`);
 
         return NextResponse.json({
