@@ -75,7 +75,7 @@ export async function scrapeTheHindu(limit: number = 30): Promise<NewsArticle[]>
                     articles.push({
                         id: `thehindu-${section.category}-${i}-${Date.now()}`,
                         title,
-                        description: desc || undefined,
+                        description: desc || \"\",
                         url,
                         source: "thehindu",
                         category: section.category,
