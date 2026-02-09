@@ -210,9 +210,9 @@ MIT License - Feel free to use for personal or commercial projects
 
 ## 📧 Contact
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- Email: your.email@example.com
+- GitHub: rohanrathod8055 (https://github.com/rohanrathod8055-maker)
+- Email: rohanrathod8055.com
 
 ---
 
-**Made with ❤️ and 🖋️ by [Your Name]**
+**Made with ❤️ and 🖋️ by Rohan**
