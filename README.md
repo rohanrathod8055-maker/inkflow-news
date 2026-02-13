@@ -16,7 +16,7 @@ A premium news aggregator with manga-inspired design, featuring automatic articl
 
 ## 🚀 Live Demo
 
-[View Live Site]() (Add your Vercel URL here after deployment)
+[View Live Site](https://inkflow-news.vercel.app/latest) 
 
 ## 📸 Screenshots
 
